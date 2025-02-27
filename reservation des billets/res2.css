@@ -1,0 +1,141 @@
+.bodyy{
+    margin: 0%;
+    padding: 0%;
+  
+
+  }
+  *{
+   
+      background-color: whitesmoke;
+  
+   
+  }
+  .telech
+  { 
+    margin: 0%;
+    padding: 0%;
+    border: solid 0.2px;
+    width: 400px;
+    height: 340px;
+   margin-left: 220px;
+   margin-top: 80px;
+   border-radius: 5px;
+   box-shadow: 0 20px  35px rgba(0, 0,0 ,0.5 );
+   background-color: beige;
+   background-image: none;
+  }
+  .telec{
+    padding: 0%;
+    margin: 0%;
+   background-color: beige;
+    border: solid 0.2px;
+    width: 400px;
+    height: 330px;
+    margin-left: 100px;
+    margin-top: 80px;
+    border-radius: 5px;
+    box-shadow:   0 20px  35px rgba(0, 0,0 ,0.5 );
+    background-image: none;
+    
+  }
+  .tout
+  {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+  }
+
+  .entre
+  {
+    margin-left: 60px;
+    position: relative;
+    top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    background-color:beige;
+    background-image: none;
+
+    
+    
+    
+  }
+  input{
+    position: relative;
+    top: 30px;
+    border: solid 0.7;
+    border-radius: 10px;
+    transition: 0.6s;
+    width: 200px;
+    height: 25px;
+    background-color: white;
+    background-image: none;
+
+
+  }
+  input:hover
+  {
+
+    transform: scale(1.02);
+    background-color: rgb(228, 240, 236);
+  }
+  button{
+
+    border: solid grey;
+    width: 140px;
+    height: 30px;
+    background-color: grey;
+    font-style: italic;
+    margin-left: 50px;
+    border-radius: 30px;
+    transition: 1s;
+    background-image: none;
+
+  }
+  button:hover
+  {
+    transform: scale(1.07);
+    
+  }
+  h1{
+    text-align: center;
+ 
+  }
+  p{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow:   0 10px  15px rgba(0, 0,0 ,0.2 );
+    color: burlywood;
+  }
+  h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+ .h21{
+    text-align: center;
+    margin-right: 200px;
+    position: absolute;
+   top: 140px;
+   left: 330px;
+   border: solid 0.5px;
+   border-radius: 10px; 
+   width: 170px;
+   height: 35px;  
+   color: rgb(0, 0, 0); 
+  }
+  .h22
+  {
+    text-align: center;
+    margin-left: 830px;
+     position: absolute;
+     top: 140px;
+     border: solid 0.5px;
+     border-radius: 10px; 
+     width: 170px;
+     height: 35px;   
+     color: rgb(0, 0, 0);
+  
+ 
+     
+  }
+ 
+  

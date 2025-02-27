@@ -1,0 +1,716 @@
+/* la partie d'acceuil*/
+
+body{
+
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.tlt{
+ font-family:  "Lugrasimo", cursive ;
+   margin-left: 40px;
+  
+   font-size: 50px;
+   position: absolute;
+   left: 40px;
+   top: 17px;
+   color: black;  
+  
+}
+.koko{
+    border: none;
+ padding: 5px;
+ color: aliceblue;
+ text-decoration: none;
+ transition: 0.8s;
+}
+.koko:hover{
+   
+    border: solid;
+    border-radius: 10px;
+    background-color: azure;
+    color:rgb(126, 205, 224);
+    
+}
+#ko{
+     text-decoration: none;
+    display: flex;
+    margin-left: 690px;
+    gap: 20px;
+   padding-bottom: 20px;
+   margin-bottom: 30px;
+   position: relative;
+  bottom: 40px;
+  font-size: 20px; top: 8px;
+  position: absolute;
+  left: 60px;
+ 
+  
+ 
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(HOME\ B.jpg);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.fnt{
+  text-align: center;
+  font-family: "Lugrasimo", cursive;
+  font-weight: 350;
+  
+  font-size: 40px;
+  position: absolute;
+  top: 250px;
+  right: 950px;
+ 
+}
+.txt{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 14px;
+ position: absolute;
+ bottom: 180px;
+ left: 70px;
+}
+.bord{
+  text-decoration: none;
+    border: none;
+    height: 40px;
+    width: 150px;
+    color: whitesmoke;
+    transition: 0.2s;
+    position: absolute;
+    left: 70px;
+   top: 480px;
+   background-color: black;
+   border-radius: 5px;
+  
+   
+    
+}
+.bord:hover{
+    transform: scale(1.05);
+    font-family: fantasy;
+}
+/* la partie des offres*/
+.box{
+    
+    position: relative;
+}
+
+.marrakech{
+    
+    position: absolute;
+    left: 500px;
+    margin-top: 70px;
+    border: solid;
+    width: 257px;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+   
+.roma{
+    
+    position: absolute;
+    left: 900px;
+    margin-top: 70px;
+    border: solid;
+    width: 257px;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+   
+
+.miami{
+    position: absolute;
+    left: 500px;
+    bottom: 490px;
+    border: solid;
+    width: 257px;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+.madrid{
+    position: absolute;
+    left: 900px;
+    margin-top: 100px;
+    border: solid;
+    width: 257px;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+.mallorka{
+   
+    border: solid;
+    width: 257px;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: gainsboro;
+   
+   
+
+}
+.tokyo{
+    margin-top: 90px;
+  margin-left: 50px;
+  border: solid;
+  color: black;
+  width: 257px;
+  transition: 0.5s;
+  border-radius: 10px;
+  background-color: gainsboro;
+   
+}
+
+.madrid:hover{
+    transform: scale(1.05);
+}
+.tokyo:hover{
+    transform: scale(1.05);
+}
+
+.marrakech:hover{
+    transform: scale(1.05);
+}
+
+.miami:hover{
+    transform: scale(1.05);
+}
+
+.mallorka:hover{
+    transform: scale(1.05);
+}
+
+.roma:hover{
+    transform: scale(1.05);
+}
+.bttn{
+   text-decoration: none;
+   border: none; color: white;
+   border-radius: 4px;
+   width: 100px;
+   height: 30px;
+   background-color: black;
+   transition: 0.7s;
+
+}
+.bttn:hover{
+    transform: scale(1.2);
+
+}
+.trt{
+    font-size: 2em;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+    
+    
+}
+
+
+
+
+
+
+.img{
+   position: relative;
+   right: 0px;
+   bottom: 0px;
+   width: 250px;
+}
+
+img{
+
+border: solid;
+border-radius: 10px;
+color:white;
+
+}
+.mois
+{
+
+ color: antiquewhite;
+  border: solid burlywood;
+  width: 480px;
+  height: 30px;
+ text-align: center;
+ margin-left: 400px;
+ background-color: burlywood;
+ box-shadow: 0 20px  35px rgba(0, 0,0 ,0.3 );
+
+}
+
+
+
+
+
+
+
+
+/* a propos*/
+
+.smooth-transition {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1; /* Opacité initiale */
+}
+
+.about
+{
+
+ padding: 0%;
+ margin: 0%;
+ 
+
+
+}
+.info
+{
+
+ border: solid white;
+ width: 500px;
+ height: 300px;
+ position: absolute;
+ margin-left: 650px;
+ margin-top: 120px;
+ line-height: 25px;
+ position: absolute;
+ 
+ 
+ 
+ 
+ 
+ 
+
+}
+.format
+{
+
+  font-size: large;
+ text-align: justify;
+  margin-top: 10px;
+
+}
+#lire
+{
+
+  border: solid   rgb(23, 206, 23);
+  width: 100px;
+  height: 40px;
+  background-color: rgb(23, 206, 23);
+  border-radius: 10px;
+  transition: 0.4s;
+
+}
+#lire:hover
+{
+
+  transform: scale(1.05);
+}
+
+
+.picture{
+  border: none ;
+  width: 500px;
+  margin-left: 100px;
+  position: relative;
+ margin-bottom: 50px;
+ margin-top: 130px;
+ transition: 0.4s;
+
+
+}
+.picture:hover
+{
+  transform: scale(1.02);
+
+
+}
+#titleabt
+{
+   text-align: center;
+   text-decoration: underline red;
+
+
+}
+.descript
+{
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Poetsen One", sans-serif;
+  color: chocolate;
+ 
+
+}
+.more
+{
+  margin: 0%;
+  padding: 0%;
+ 
+  text-align: center;
+  margin-bottom: 70px;
+
+
+
+}
+.plus1,.plus2,.plus3,.plus4{
+
+  border: solid  rgb(70, 184, 230) ;
+  width: 190px;
+  height: 55px;
+  background-color: rgb(73, 167, 204);
+ 
+  transition: 0.4s;
+  margin-top: 0px;
+  
+
+ box-shadow: 0 20px  35px rgba(0, 0,0 ,0.2 );
+ font-family: 'Times New Roman', Times, serif;
+
+}
+.plus1:hover,.plus2:hover,.plus3:hover,.plus4:hover
+{
+  transform: scale(1.19);
+  
+
+
+}
+.plus1
+{
+  margin-right:120px;
+}
+.plus2{
+
+ margin-right: 160px;
+
+}
+.plus3
+{
+  margin-right: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  /*login page*/ 
+
+ 
+  .bodyy{
+    margin: 0%;
+    padding: 0%;
+    background-color: #dfe9f5;
+
+  }
+ .connect
+ {
+  text-align: center;
+    border: 0.2px solid white;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background-color:white;
+    box-shadow: 0 20px  35px rgba(0, 0,0 ,0.5 );
+    margin: auto;
+    margin-top: 100px;
+    
+  
+  }
+  .int{
+ border: 1px solid;
+    border-radius: 15px;
+    width: 280px;
+    height: 45px;
+    background-color: #f4f4f4;
+    margin-top: 10px;
+    transition: 0.4s;
+  }
+  .int:hover{
+    transform: scale(1.05);
+
+  }
+  .lien{
+
+margin-left: 120px;
+
+  }
+  .click
+  {
+    border:  1px solid;
+    border-radius: 15px;
+    width: 270px;
+    height: 35px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: rgb(26, 106, 187);
+   transition: 0.5s;
+   margin-top: 40px;
+  }
+  .click:hover{
+    transform: scale(1.05);
+    
+  }
+  ::placeholder{
+   text-align:10 left;
+  }
+  /*login 2*/
+  .loginn{
+    margin: 0;
+    padding: 0;
+    background-color: #dfe9f5;
+  }
+  .insc
+  {
+    border: 1px  solid white;
+    border-radius: 10px;
+    box-shadow:0 20px  35px rgba(0, 0,0 ,0.5 ) ;
+   
+    width: 400px;
+    height: 600px;
+    text-align: center;
+   margin: auto;
+   margin-top: 30px;
+
+    background-color: white;
+  }
+  input{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 35px;
+    width: 280px;
+    background-color: whitesmoke;
+  }
+ 
+  #checkbox{
+    width: 15px;
+  }
+  #accept
+  {
+    margin-left: 20px;
+  }
+  .cmdp{
+    margin-right: 70px;
+    
+  }
+  .nom
+  {
+    margin-right: 240px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .prenom{
+    margin-right: 220px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .dtn{
+   margin-right: 150px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .mdp{
+    margin-right: 170px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .email{
+    margin-right: 230px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+.style {
+ font-family: "Lugrasimo", cursive ;
+ font-size: 2em;
+}
+/* achat des ticket*/
+.telech,.telec{
+
+  border: solid;
+  width: 400px;
+  height: 300px;
+  
+
+
+}
+.tout{
+  border: solid;
+  display: flex;
+  height: 400px;
+
+}
+/*footer*/
+.footer{
+
+
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  gap: 200px;
+  border: solid lavender ;
+  border-radius: 5px;
+  height: 280px;
+  background-color:lavender;
+
+}
+.stl{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+
+
+
+}
+.option
+{
+  text-decoration: none;
+  color: #000000;
+  transition: 0.4s;
+
+}
+.option:hover
+{
+  transform: scale(1.05);
+  color: #2018186e;
+
+
+
+
+
+}
+.parte1,.parte2,.parte3
+{
+  margin-top: 30px;
+  margin-right: 50px;
+
+
+
+
+}
+.go{
+  margin-left: 50px;
+  margin-top: 40px;
+  font-family: "Lugrasimo", "cursive ";
+  
+  font-size: 25px
+
+
+
+}
+.cop
+{
+
+  position: absolute;
+  margin-right: 600px;
+  margin-top: 250px;
+  
+}
+.copp
+{
+
+position: absolute;
+margin-left: 1050px;
+margin-top: 250px;
+
+
+
+}
+.deff
+{
+
+  position: absolute;
+  margin-top: 90px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ text-align: justify;
+}
+.contact
+{
+
+  
+  position: absolute;
+  margin-top: 140px;
+ margin-left: 30px;
+ font-size: 30px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loop,.loo,.lo{
+  display: block;
+}
+.loop{
+    position: absolute;
+    right: 200px;
+    top: 280px;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    height: 200px;
+    border-style: inset;
+   
+}
+.loo{
+    position: absolute;
+    right: 150px;
+    top: 490px;
+    border: solid rgb(235, 209, 235);
+    height: 200px;
+    border-radius: 5px;
+    border-style: inset;
+   
+}
+.l{
+    position: absolute;
+    right: 100px;
+    top: 910px;
+    border: solid rgb(235, 209, 235);
+    height: 200px;
+    border-radius: 5px;
+    border-style: inset;
+   
+}
+.lo{
+    position: absolute;
+    right: 200px;
+    top: 700px;
+    border: solid white;
+    border-radius: 5px;
+    height:200px ;
+    border-style: inset;
+   
+}
